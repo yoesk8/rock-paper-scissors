@@ -14,9 +14,9 @@
         <h1>Just press a button to play!</h1>
        
         <div class="button-row">
-          <button class="rock-btn">Rock</button>
-          <button class="paper-btn">Paper</button>
-          <button class="scissors-btn">Scissors</button>
+          <button onclick="computerPick()" class="rock-btn">Rock</button>
+          <button onclick="computerPick()" class="paper-btn">Paper</button>
+          <button onclick="computerPick()" class="scissors-btn">Scissors</button>
         </div>
        
         <div class="game-message-placement">
@@ -36,7 +36,7 @@
           </div>
         </div><!-- end of scoreboard-placement -->
         
-        <button id="reset-scores">Restart Game</button>
+        <button onclick="resetGame()" id="reset-scores">Restart Game</button>
         
       </div>
       <!-- end of container div -->
